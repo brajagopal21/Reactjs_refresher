@@ -1,14 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Card from './Card'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-    <h2 className='bg-green-400'>tailwind test</h2>
+      <h2 className='bg-green-400 text-black p-4rounded-xl'>Tailwind Test</h2>
+      <Card/>
+      <Card/>
     </>
   )
 }
